@@ -2,7 +2,7 @@
 
 ## User story
 
-As a user of Ubuntu Live systems, I would like to have the keyboard layout (keyboard language) autodetected.
+As a user of Ubuntu based Live systems, I would like to have the keyboard layout (keyboard language) autodetected. I find it very cumbersome to select the keyboard layout each time I boot a Ubuntu based Live system.
 
 Ideally, I would also like to get sensible defaults for the locale (application language) and timezone based on that.
 
