@@ -20,6 +20,14 @@ Additional indicators may be added in the future; please open an issue if you ha
 * USB keyboards should standardize on a way to communicate their keyboard layout (keyboard language)
 * The *nix world should standardize on some EFI NVRAM variables for keyboard layout (keyboard language), locale (application language), timezone, etc.
 
+## Status
+
+* Setting the keyboard layout (keyboard language) works
+* Setting the locale (application language) does not seem to work yet - why?
+* Setting the timezone does not seem to work yet - why?
+
+Please open an issue in this repository if you know the answer to any of those.
+
 ## Open questions
 
 * Where is the source code repository for casper? (Hopefully somewhere on GitHub and not hidden away in Launchpad?)
