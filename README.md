@@ -1,2 +1,29 @@
-# casper-language-autodetection
-Casper Language Autodetection
+# Casper Language Autodetection
+
+## User story
+
+As a user of Ubuntu Live systems, I would like to have the keyboard layout (keyboard language) autodetected.
+
+Ideally, I would also like to get sensible defaults for the locale (application language) and timezone based on that.
+
+## Theory of operation
+
+Ubuntu Live systems are using casper to configure the Live system during the boot process. [Casper](https://packages.ubuntu.com/search?keywords=casper&searchon=names) is modular and runs various scripts that become part of the initrd.
+
+By adding one more script, we can autodetect the keyboard layout (keyboard language) based on the following indicators:
+
+* [Raspberry Pi Keyboard and Hub](https://www.raspberrypi.com/products/raspberry-pi-keyboard-and-hub/) USB information ([details](https://gist.github.com/probonopd/9646c69f876ff2b4b879aeb1c1cbc532))
+* The EFI variable `prev-lang:kbd` which is usually set on systems running macOS ([details](https://github.com/helloSystem/hello/wiki/EFI-NVRAM))
+
+Additional indicators may be added in the future; please open an issue if you have ideas, e.g.,
+
+* USB keyboards should standardize on a way to communicate their keyboard layout (keyboard language)
+* The *nix world should standardize on some EFI NVRAM variables for keyboard layout (keyboard language), locale (application language), timezone, etc.
+
+## Open questions
+
+* Where is the source code repository for casper?
+* Who is the maintainer of casper?
+* How can we get this merged into casper eventually?
+
+Please open an issue in this repository if you know the answer to any of those.
