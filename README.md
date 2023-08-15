@@ -22,7 +22,7 @@ Additional indicators may be added in the future; please open an issue if you ha
 
 ## Open questions
 
-* Where is the source code repository for casper?
+* Where is the source code repository for casper? (Hopefully somewhere on GitHub and not hidden away in Launchpad?)
 * Who is the maintainer of casper?
 * How can we get this merged into casper eventually?
 
