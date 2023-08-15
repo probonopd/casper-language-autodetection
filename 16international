@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Copyright (C) 2023 Simon Peter <probono@puredarwin.org>
+
 # Be verbose
 set -x
 
