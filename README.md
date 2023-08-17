@@ -25,7 +25,7 @@ It is still possible to override the autodetected values by passing kernel argum
 ## Status
 
 * Setting the keyboard layout (keyboard language) works
-* Setting the locale (application language) does not seem to work yet - why?
+* Setting the locale (application language) works
 * Setting the timezone does not seem to work yet - why?
 
 Please open an issue in this repository if you know the answer to any of those.
