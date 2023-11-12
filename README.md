@@ -6,6 +6,8 @@ As a user of Ubuntu based Live systems, I would like to have the keyboard layout
 
 Ideally, I would also like to get sensible defaults for the locale (application language) and timezone based on that.
 
+https://www.youtube.com/watch?v=_pWRVR1Knfo around 43:50 shows that the Apple Lisa could set the system language automatically depending on which language keyboard was attaced. In 1983!
+
 ## Theory of operation
 
 Ubuntu Live systems are using casper to configure the Live system during the boot process. [casper](https://packages.ubuntu.com/search?keywords=casper&searchon=names) is modular and runs various scripts that become part of the initrd.
